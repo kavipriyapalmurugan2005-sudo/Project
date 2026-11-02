@@ -1,14 +1,14 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./myproject/index";
-import About from "./myproject/about";
-import Products from "./myproject/products";
-import Contact from "./myproject/contact";
-import Cart from "./myproject/cart";
-import Admin from "./myproject/admin";
-import AdminLogin from "./myproject/adminLogin";
-import ProtectedAdmin from "./myproject/ProtectedAdmin";
+import Home from "./myproject1/index";
+import About from "./myproject1/about";
+import Products from "./myproject1/products";
+import Contact from "./myproject1/contact";
+import Cart from "./myproject1/cart";
+import Admin from "./myproject1/admin";
+import AdminLogin from "./myproject1/adminLogin";
+import ProtectedAdmin from "./myproject1/ProtectedAdmin";
 
 function App() {
     return (
