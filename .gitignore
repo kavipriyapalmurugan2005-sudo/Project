@@ -36,15 +36,21 @@ db.json
 # Ignore backend dependencies and secrets
 backend/node_modules/
 backend/.env
-db.json
 
 # Keep only Palmurugan frontend files
 src/*
 !src/main.jsx
 !src/App.jsx
 !src/index.css
+
+# Allow myproject folder
 !src/myproject/
 !src/myproject/**
+
+# Allow myproject1 folder
+!src/myproject1/
+!src/myproject1/**
+
+# Allow myproject2 folder
 !src/myproject2/
 !src/myproject2/**
-
